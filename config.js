@@ -15,9 +15,13 @@ System.config({
 
 System.config({
   "map": {
+    "aurelia-metadata": "github:aurelia/metadata@0.7.3",
     "babel": "npm:babel-core@5.8.22",
     "babel-runtime": "npm:babel-runtime@5.8.20",
     "core-js": "npm:core-js@0.9.18",
+    "github:aurelia/metadata@0.7.3": {
+      "core-js": "npm:core-js@0.9.18"
+    },
     "github:jspm/nodelibs-process@0.1.1": {
       "process": "npm:process@0.10.1"
     },

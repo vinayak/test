@@ -1,12 +1,15 @@
 {
   "name": "vinayak-test",
   "jspm": {
+    "registry": "jspm",
+    "main": "index",
+    "format": "es6",
     "directories": {
       "lib": "lib"
     },
-    "main" :"index",
-    "format": "es6",
-    "registry": "jspm",
+    "dependencies": {
+      "aurelia-metadata": "github:aurelia/metadata@^0.7.3"
+    },
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
       "babel-runtime": "npm:babel-runtime@^5.1.13",
